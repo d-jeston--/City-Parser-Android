@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/mapClicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="12dp"
+        android:contentDescription="icon_map"
+        android:src="@drawable/maps64" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/nameCity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="city name" />
+
+        <TextView
+            android:id="@+id/stateCity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="state city" />
+
+        <TextView
+            android:id="@+id/urlCity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="www.someurl.com" />
+    </LinearLayout>
+
+
+</RelativeLayout>

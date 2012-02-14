@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  
+  <item android:title="@string/get_data_caption" android:id="@+id/menu_item_new_search" />
+  <item android:title="@string/open_saved_db" android:id="@+id/menu_item_open_db"/> 
+  
+   <group android:id="@+id/group_menu_operation" android:visible="false">
+      
+  <item android:title="@string/operation_with_db" android:id="@+id/menu_item_operation_with_db">
+          
+   <menu> 
+  
+  <item android:title="@string/save_database_string" android:id="@+id/menu_item_save_db" />
+  <item android:title="@string/add_record" android:id="@+id/menu_item_add_record" />
+  <item android:title="@string/delete_record" android:id="@+id/menu_item_delete_record"/>
+  </menu>
+  
+   </item>
+   </group> 
+   
+  <item android:title="@string/close_app" android:id="@+id/mebu_item_close_app"/>
+  
+</menu>
+
+

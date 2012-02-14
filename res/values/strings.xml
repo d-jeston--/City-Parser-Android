@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, CityParserActivity!</string>
+    <string name="app_name">CityParser</string>
+    <string name="start_caption">Данных пока нет</string>
+    <string name="get_data_caption">Получить данные</string>
+    <string name="add_record">Добавить запись</string>
+    <string name="open_saved_db">Открыть базу</string>
+    <string name="edit_record">Редактировать</string>
+    <string name="edit_record1">Отредактируйте эту запись</string>
+    <string name="save_database_string">Сохранить в базе</string>
+    <string name="save_database_string1">Сохранить</string>
+    <string name="delete_record">Удалить</string>
+    <string name="close_app">Закрыть</string>
+    <string name="cancel_string1">Отмена</string>
+    
+    <string name="dialog_title_downlaoding">Подождите</string>
+    <string name="dialog_message_downloading">Подождите, выполянется загрузка и анализ данных</string>
+    
+    <string name="dialog_delete_item">Удалить выбранную запись?</string>
+    <string name="ok_string">Да</string>
+    <string name="cancel_string">Нет</string>
+    
+    <string name="close_app_string">Закрыть программу?</string>
+    
+    <string name="data_was_saved_string">Данные были сохранены в базе данных</string>
+    
+    <string name="map_title">Это место на карте</string>
+    
+    <string name="operation_with_db">Работать с базой данных</string>
+    
+    <string name="city">Город</string>
+    <string name="state">Штат</string>
+    <string name="url">Адрес в интернете</string>
+    <string name="lattitude">Широта</string>
+    <string name="longitude">Долгота</string>
+    
+    <string name="city_hint">Город</string>
+    <string name="state_hint">Штат</string>
+    <string name="url_hint">Адрес в интернете</string>
+    <string name="lattitude_hint">Широта</string>
+    <string name="longitude_hint">Долгота</string>
+    
+    <string name="select_record_before_edit">Сначала выберите запись</string>
+    
+    <string name="no_city_text">Вы не ввели название города.</string>
+    <string name="no_state_text">Вы не ввели название штата.</string>
+    <string name="no_url_text">Вы не ввели URL</string>
+    <string name="no_lattitude_text">Вы не указали широту</string>
+    <string name="no_longitude_text">Вы не указали долготу</string>
+    
+    <string name="title_hint">
+        Чтобы загрузить данные из интернета или открыть уже имеющиеся, используйте меню
+    </string>
+    
+    <string name="no_data_was_saved">Вы пока ничего не сохраняли. Загрузите данные из интернета и  сохраните их</string>
+    
+</resources>

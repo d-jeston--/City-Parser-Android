@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="wrap_content">
+    
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_custom_dialog"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#123566"
+    android:padding="10dp" 
+    >
+
+  
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/city" 
+        />
+    
+    <EditText
+        android:id="@+id/city_dialog_value"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent" 
+        android:hint="@string/city_hint"
+        android:inputType="text"
+        />
+    
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/state"
+        />
+    
+    <EditText
+        android:id="@+id/state_dialog_value"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent" 
+        android:hint="@string/state_hint"
+        android:inputType="text"
+        />
+    
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/url" 
+        />
+    
+    <EditText
+        android:id="@+id/url_dialog_value"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent" 
+        android:hint="@string/url_hint"
+        android:inputType="textUri"
+        />
+    
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/lattitude"
+        
+        />
+    
+    <EditText
+        android:id="@+id/lattitude_dialog_value"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent" 
+        android:hint="@string/lattitude_hint"
+        android:inputType="numberDecimal" 
+        />
+    
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/longitude" 
+        />
+    
+    <EditText
+        android:id="@+id/longitude_dialog_value"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent" 
+        android:hint="@string/longitude_hint"
+        android:inputType="numberDecimal" 
+        />
+    
+
+   
+<Button
+    android:id="@+id/button_update_record"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/save_database_string1"
+    android:layout_marginTop="10dp" 
+    />
+ 
+<Button
+    android:id="@+id/button_cancel"
+    android:layout_width="116dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="right|bottom"
+    android:layout_marginTop="10dp"
+    android:text="@string/cancel_string1" />
+
+</LinearLayout>
+</ScrollView> 
+
+
+     
